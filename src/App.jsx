@@ -1,13 +1,21 @@
 import React from 'react'
-import Stagiaire from './components/Stagiaire'
-import { Voiture } from './components/Voiture'
-import Compteur from './components/Compteur'
+import TodoList from './components/todolist/Index'
+import Exercice from './components/Exercice'
+import Eduction from './components/Eduction'
+import IndexEducation from './components/IndexEducation'
+import IndexEvenmentiel from './components/IndexEvenmentiel'
+import IndexLiterature from './components/IndexLiterature'
+import IndexCinema from './components/IndexCinema'
 
 const App = () => {
   return (
     <div>
-      <Voiture Couleur="rouge" Marque="tesla" Model="X"/>
-      <Compteur/>
+      <TodoList/>
+      {/* <Exercice/> */}
+      {/* <IndexEducation/> */}
+      {/* {<IndexEvenmentiel/>} */}
+      {/* <IndexLiterature/> */}
+      {/* <IndexCinema/> */}
     </div>
   )
 }
